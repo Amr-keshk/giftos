@@ -698,6 +698,9 @@ h1 {
   }
 }
 @media (max-width: 576px) {
+  .testimonials {
+    width: calc(100% - 1rem);
+  }
   .testimonial {
     padding: 3rem 0.5rem;
   }
